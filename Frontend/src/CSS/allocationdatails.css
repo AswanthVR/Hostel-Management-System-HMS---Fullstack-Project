@@ -1,0 +1,165 @@
+.student-room-allocation {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .allocation-table {
+    width: 100%;
+    
+    border-collapse: collapse;
+  
+  }
+ 
+  
+  .allocation-table th,
+  .allocation-table td {
+    padding: 10px;
+    
+    border: 1px solid #ddd;
+  }
+  
+  .allocation-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .allocation-row {
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .allocation-row:hover {
+    background-color: #a1cdf1;
+  }
+
+  
+  .search-bar button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .search-bar button:hover {
+    background-color: #0069d9;
+  }
+  
+  .allocation-row button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .allocation-row button:hover {
+    background-color: #0069d9;
+  }
+   /* ////////////////////////// */
+
+   .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .modal-header h5 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .modal-header button {
+    padding: 8px 16px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .modal-header button:hover {
+    background-color: #999;
+  }
+  
+  .modal-body {
+    margin-bottom: 10px;
+  }
+  
+  .student-details {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .student-details td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .student-details td:first-child {
+    font-weight: bold;
+  }
+  
+  .modal-footer {
+    text-align: right;
+  }
+  
+  .modal-footer button {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .modal-footer button:hover {
+    background-color: #45a049;
+  }
+  

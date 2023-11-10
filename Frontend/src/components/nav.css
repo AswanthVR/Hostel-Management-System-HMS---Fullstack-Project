@@ -1,0 +1,12 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  height: 50px;
+  background-color: #000000;
+  z-index: 1;
+}
+
+
+.navbar-title {
+  padding: 10px;
+}
